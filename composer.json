@@ -11,8 +11,7 @@
         }
     ],
     "autoload": {
-        "psr-0": { "Kunststube\\Rison": "" },
-        "files": ["rison_functions.php"]
+        "psr-0": { "Kunststube\\Rison": "" }
     },
     "require": {
         "php": ">=5.3.0"
