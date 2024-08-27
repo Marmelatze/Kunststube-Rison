@@ -11,6 +11,11 @@ class RisonEncoder extends Rison {
 
     protected $encoders = array();
 
+    /**
+     * @var string
+     */
+    private $idOkRegex;
+
     public function __construct($value) {
         $this->value = $value;
         $this->init();
